@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 70px;
+    border-right: 2px solid black;
+    width:0;
+    animation: typing 4s steps(20,end) forwards;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes typing {
+   from{
+    
+        width:0;
+        color: black;
+   }
+    to{
+       width:100%;
+       color: rgb(156, 14, 61);
+    }
+   } 
+
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+img {
+    width: 240px;
+    height: 260px;
+    border-radius: 150px;
+    box-shadow: 5px 5px 5px rgb(233, 233, 74);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 8px 8px 5px white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu h3 {
+    margin: 0;
+    padding-right: 20px;
+    font-size: 24px;
+}
+
+.nav-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.home-section {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-section h3 {
+    text-align: center;
+}
+
+.home-section h3:hover {
+    color: rgb(156, 14, 61);
+}
+
+.home-section h1:hover {
+    color: rgb(156, 14, 61);
+}
+
+.home-section .text h3, 
+.home-section .text h1, 
+.home-section .text p {
+    margin: 10px 0;
+}
+
+.about-section {
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f4f4f4;
+    height: 630px;
+    color: black;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #333;
+    text-transform: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 60px 20px;
+    text-align: center;
+    height: 630px;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-method img {
+    width: 130px;
+    height: 130px;
+    box-shadow: 5px 5px 8px yellow;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-details p {
+    font-size: 30px;
+    color: black;
+    margin: 0 0 10px 0;
+}
+
+button {
+    box-shadow: 5px 5px 8px white;
+    background-color: black;
+    height: 50px;
+    width: 130px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.projects-section {
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    
+    text-align: center; 
+    height: auto; 
+}
+
+.project-method {
+    
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 30px;
+}
+img[alt="Portfolio Website Icon"] {
+    margin-left: auto;
+}
+
+.project-method img {
+    width: 150px; 
+    height: 130px; 
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px yellow;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-details p {
+    font-size: 30px;
+    color: black;
+    margin: 0;
+}
