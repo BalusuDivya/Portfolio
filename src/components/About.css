@@ -1,0 +1,282 @@
+/* About.css with 3D and Animation Effects (Original Dimensions Preserved) */
+
+.about-section {
+  padding-top: 30px; /* Original padding */
+  background-color: #0c0c1d; /* Original background */
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  perspective: 1000px; 
+  padding-bottom: 140px;/* Added for 3D */
+} 
+
+/* Floating Bubbles Background (won't affect dimensions) */
+.about-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='3' fill='%23ff69b4' opacity='0.2'/%3E%3Ccircle cx='80' cy='70' r='2' fill='%2387ceeb' opacity='0.2'/%3E%3Ccircle cx='140' cy='30' r='4' fill='%23eb87b9' opacity='0.2'/%3E%3Ccircle cx='30' cy='120' r='3' fill='%23ffffff' opacity='0.2'/%3E%3Ccircle cx='100' cy='150' r='2' fill='%23ff69b4' opacity='0.2'/%3E%3C/svg%3E");
+  z-index: 1;
+  animation: bubbleMove 20s linear infinite;
+}
+
+@keyframes bubbleMove {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 200px; }
+}
+
+.about-container {
+  max-width: 1000px; /* Original max-width */
+  margin: 0 auto; /* Original margin */
+  position: relative;
+  z-index: 2;
+  transform-style: preserve-3d; /* Added for 3D */
+}
+
+.section-heading {
+  font-size: 2rem; /* Original font-size */
+  text-align: center;
+  margin-bottom: 30px; /* Original margin */
+  color: #87ceeb;
+  
+ 
+}
+
+
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Original gap */
+  transform-style: preserve-3d; /* Added for 3D */
+}
+
+.about-text p {
+  font-size: 1rem; /* Original font-size */
+  line-height: 1.6; /* Original line-height */
+  color: #fff;
+  text-align: center;
+  max-width: 800px; /* Original max-width */
+  margin: 0 auto; /* Original margin */
+  transform: translateZ(10px); /* 3D effect */
+  transition: all 0.3s ease; /* Original transition */
+}
+
+.about-text p:hover {
+  transform: translateZ(20px) rotateX(5deg); /* Enhanced 3D hover */
+}
+
+.info-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Original gap */
+  justify-content: center;
+  perspective: 1000px; /* Added for 3D */
+}
+
+.info-section {
+  flex: 1;
+  min-width: 300px; /* Original min-width */
+  max-width: 500px; /* Original max-width */
+  transform-style: preserve-3d; /* Added for 3D */
+}
+
+.info-heading {
+  font-size: 1.3rem; /* Original font-size */
+  margin-bottom: 20px; /* Original margin */
+  color: #ff69b4;
+  text-align: center;
+  position: relative;
+  transform: translateZ(15px); /* 3D effect */
+}
+
+.info-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -8px; /* Original position */
+  left: 50%;
+  transform: translateX(-50%) translateZ(10px); /* 3D effect */
+  width: 50px; /* Original width */
+  height: 2px; /* Original height */
+  background: #ff69b4;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Original grid */
+  gap: 15px; /* Original gap */
+}
+
+.info-card {
+  background: rgba(12, 12, 29, 0.7); /* Original background */
+  border: 1px solid rgba(135, 206, 235, 0.2); /* Original border */
+  border-radius: 8px; /* Original radius */
+  padding: 15px; /* Original padding */
+  min-height: 100px; /* Original min-height */
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease; /* Original transition */
+  transform: translateZ(10px); /* 3D effect */
+  position: relative;
+}
+
+.info-card:hover {
+  transform: translateZ(20px) rotateY(5deg); /* 3D hover effect */
+  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2);
+  border-color: #ff69b4;
+}
+
+.info-icon {
+  font-size: 1.2rem; /* Original font-size */
+  margin-bottom: 8px; /* Original margin */
+  color: #ff69b4;
+  transform: translateZ(15px); /* 3D effect */
+}
+
+.info-card h4 {
+  color: #87ceeb;
+  margin-bottom: 8px; /* Original margin */
+  font-size: 0.95rem; /* Original font-size */
+  transform: translateZ(10px); /* 3D effect */
+}
+
+.info-card p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.85rem; /* Original font-size */
+  margin: 0;
+  line-height: 1.4; /* Original line-height */
+  transform: translateZ(5px); /* 3D effect */
+}
+
+/* Animated floating elements (won't affect dimensions) */
+.floating-element {
+  position: absolute;
+  background: rgba(255, 105, 180, 0.1);
+  border-radius: 50%;
+  filter: blur(2px);
+  z-index: 1;
+  animation: float 15s infinite linear;
+}
+
+@keyframes float {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-50px) rotate(180deg); }
+  100% { transform: translateY(0) rotate(360deg); }
+}
+
+/* About.css with responsive fixes */
+
+/* ... (keep all your existing styles until the media queries) ... */
+
+/* Responsive Adjustments - Modified */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 40px 15px;
+  }
+  
+  .section-heading {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  
+  /* Changed from 1fr to keep 2 columns on tablets */
+  .info-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Reduced gap for smaller screens */
+  }
+  
+  /* Adjusted card sizing for mobile */
+  .info-card {
+    min-height: auto;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Switch to single column only on very small screens */
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-text p {
+    font-size: 0.9rem;
+  }
+  
+  .info-heading {
+    font-size: 1.1rem;
+  }
+  
+  /* Make info sections take full width on mobile */
+  .info-section {
+    min-width: 100%;
+  }
+}
+
+/* Additional responsive improvements */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Adjust for medium screens */
+  .info-grid {
+    gap: 12px;
+  }
+  
+  .info-card {
+    padding: 12px;
+  }
+}
+.about-section {
+  padding-top: 30px; /* Original padding */
+  background-color: #0c0c1d; /* Original background */
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  perspective: 1000px;
+  
+  
+  /* Border and Glow same as Certificates */
+  border: 2px solid #87ceeb;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(135, 206, 235, 0.3);
+  margin: 2rem; /* same spacing */
+}
+
+/* Border Animation Top */
+.about-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #ff69b4, #87ceeb, #ff69b4, transparent);
+  animation: borderGlow 3s linear infinite;
+  z-index: 2; /* above background bubbles */
+}
+
+/* Border Animation Bottom */
+.about-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #ff69b4, #87ceeb, #ff69b4, transparent);
+  animation: borderGlow 3s linear infinite;
+  z-index: 2;
+}
+
+/* Glow Animation Keyframes */
+@keyframes borderGlow {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
