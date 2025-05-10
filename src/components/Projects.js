@@ -25,7 +25,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/coding-profile-tracker',
     live: 'https://webhackfrontend.vercel.app/',
     image: codingprofiletrackerImg,
-    video: '/videos/coding profile tracker.mp4'
+    video: 'https://drive.google.com/file/d/14AWBs8k1NsTQMoGIyFA_Q-JYSBKIZjkk/view?usp=sharing'
   },
   {
     title: 'Transport Module in an ERP System',
@@ -34,16 +34,16 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Transport-Module-in-an-ERP-System',
     live: 'https://github.com/BalusuDivya/Transport-Module-in-an-ERP-System',
     image: transportmoduleImg,
-    video: '/videos/transport.mp4'
+    video: 'https://drive.google.com/file/d/1BAtUpCmSlSfdnz1kJGJnowVt7NiWZeP8/view?usp=sharing'
   },
   {
     title: 'My Portfolio',
     description: 'A personal portfolio website showcasing my projects, skills, achievements, and work experience in a responsive design.',
     tags: ['React', 'MongoDB', 'CSS', 'Node.js'],
-    github: 'https://github.com/BalusuDivya/My_Portfolio',
-    live: 'https://github.com/BalusuDivya/My_Portfolio',
+    github: 'https://github.com/BalusuDivya/Portfolio',
+    live: 'https://github.com/BalusuDivya/Portfolio',
     image: portfolioImg,
-    video: 'https://example.com/taskapp-demo.mp4'
+    video: 'https://drive.google.com/file/d/1ejbLoKi_OSpUM2mt-Pms0XN6PU-oDHv3/view?usp=sharing'
   },
   {
     title: 'Attendance Portal',
@@ -52,16 +52,16 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Attendance-portal',
     live: 'https://attendance-portal-nine.vercel.app/',
     image: AttendanceportalImg,
-    video: '/videos/ecell.mp4'
+    video: 'https://drive.google.com/file/d/1ZVoXyq2OW2imTUk6MhHygny8JFXYjawu/view?usp=sharing'
   },
   {
     title: 'Faculty Research and Paper Monitoring Hub',
     description: 'A centralized hub to monitor faculty research activities, publications, and track departmental progress reports.',
     tags: ['JavaScript', 'React', 'CSS', 'MongoDB'],
-    github: '',
-    live: '',
+    github: 'https://github.com/BalusuDivya/Faculty_Portal',
+    live: 'https://github.com/BalusuDivya/Faculty_Portal',
     image: FacultyportalImg,
-    video: '/videos/faculty.mp4'
+    video: 'https://drive.google.com/file/d/1nxEgNjJn8zsmede_h7PgoN3ub4YniOMg/view?usp=sharing'
   },
   {
     title: 'Basic Quiz App',
