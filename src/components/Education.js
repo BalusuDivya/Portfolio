@@ -8,37 +8,37 @@ const Education = () => {
   const educationData = [
     {
       degree: "Bachelor of Technology in Computer Science",
-      institution: "Tech University",
-      year: "2020 - 2024",
-      description: "Specialized in Artificial Intelligence and Machine Learning. Completed with honors (GPA: 3.8/4.0).",
+      institution: "Vignan's Foundation for Science, Technology and Research",
+      year: "Sept 2022 - Present",
+      description: "Pre-final year B.Tech student in Computer Science and Engineering. Skilled in software development with expertise in C, DBMS, and Web Development. Currently expanding knowledge in Certified Ethical Hacking and Cloud Practitioner concepts.",
       achievements: [
-        "Recipient of Dean's Excellence Award",
-        "Published research paper on Neural Networks",
-        "Lead developer of university chatbot project"
+        "GPA: 9.0/10",
+        "Focus on software development, ethical hacking, and cloud computing",
+        "Active participant in hackathons and coding competitions"
       ],
       icon: "🎓"
     },
     {
       degree: "Higher Secondary Education",
-      institution: "Science College",
-      year: "2018 - 2020",
-      description: "Major in Physics, Chemistry, and Mathematics. Scored 95% in final examinations.",
+      institution: "Sri Chaitanya Junior College",
+      year: "Aug 2020 - Apr 2022",
+      description: "Gained valuable problem-solving and analytical skills through rigorous Intermediate studies.",
       achievements: [
-        "Gold medalist in National Science Olympiad",
-        "President of Science Club",
-        "Developed school management system as final project"
+        "GPA: 9.4/10",
+        "Developed strong foundational knowledge in Mathematics and Physics",
+        "Participated in various science projects and competitions"
       ],
       icon: "🔬"
     },
     {
       degree: "Secondary School Education",
-      institution: "St. Mary's High School",
-      year: "2016 - 2018",
-      description: "Completed with distinction in all subjects. Active participant in extracurricular activities.",
+      institution: "St. Joseph's English Medium School",
+      year: "Jul 2019 - Apr 2020",
+      description: "Exhibited dedication and versatility by achieving excellence in academics and securing top honors in competitive sports.",
       achievements: [
-        "School Topper in Computer Science",
-        "Captain of Robotics Team",
-        "Won inter-school coding competition"
+        "GPA: 9.8/10",
+        "Top honors in competitive sports during 10th grade",
+        "Active participant in school leadership and extracurricular activities"
       ],
       icon: "🏫"
     }
