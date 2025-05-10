@@ -70,7 +70,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Quiz-App',
     live: 'https://quiz-app-two-psi-31.vercel.app/',
     image: QuizImg,
-    video: '/videos/quiz.mp4'
+    video: 'https://drive.google.com/file/d/1nbiuF6sYQ2y2_AtEYz_686DSvMwW8COf/view?usp=sharing'
   },
   {
     title: 'Calculator',
@@ -79,7 +79,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Calculator',
     live: 'https://calculator-two-sooty-96.vercel.app/',
     image: CalculatorImg,
-    video: '/videos/calc.mp4'
+    video: 'https://drive.google.com/file/d/1C8YLxnqEGvH4h1Qa_UqVJsJlsser-7BG/view?usp=sharing'
   },
   {
     title: 'Responsive Navbar',
@@ -88,7 +88,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Responsive-Navbar',
     live: 'https://responsive-navbar-beryl.vercel.app/',
     image: NavbarImg,
-    video: '/videos/navbar.mp4'
+    video: 'https://drive.google.com/file/d/1RhEqK2AiHndgp__D9WK_dLmUOC3arIvz/view?usp=sharing  '
   },
   {
     title: 'Image Gallery',
@@ -97,7 +97,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Image-Gallery',
     live: 'https://image-gallery-eosin-six.vercel.app/  ',
     image: GalleryImg,
-    video: '/videos/imggallery.mp4'
+    video: 'https://drive.google.com/file/d/1XpgQ13YTAe2S-ZxxsI3-U5GZpttE_v5j/view?usp=sharing'
   },
   {
     title: 'Book App',
@@ -105,8 +105,8 @@ const projects = [
     tags: ['HTML', 'CSS', 'JS', 'API'],
     github: 'https://github.com/BalusuDivya/Book-App',
     live: 'https://book-app-tau-ten.vercel.app/',
-    image: BookImg,
-    video: '/videos/bookapp.mp4'
+    image: BookImg, 
+    video: 'https://drive.google.com/file/d/1ZNKq_UdIqJgKE36TwqRWI_3oE6eLiAxq/view?usp=sharing'
   },
   {
     title: 'Dynamic Student Profile Viewer',
@@ -115,7 +115,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Dynamic-Student-Profile-Viewer',
     live: 'https://dynamic-student-profile-viewer.vercel.app/',
     image: IDImg,
-    video: '/videos/idcard.mp4'
+    video: 'https://drive.google.com/file/d/1mmdowjSf-w3T08fARh8Ls_uy82m5vRTe/view?usp=sharing'
   },
   {
     title: 'Random Background Color Changer',
@@ -124,7 +124,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Random-Background-Color-Changer',
     live: 'https://random-background-color-changer.vercel.app/',
     image: RandomImg,
-    video: '/videos/random.mp4'
+    video: 'https://drive.google.com/file/d/1iY7zPGsM_8_chlAiRM7hy5C-4xT5frV0/view?usp=sharing'
   },
   {
     title: 'Blood Cell Detection',
@@ -133,7 +133,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Blood-cells-WBC-detection-using-image-processing',
     live: 'https://github.com/BalusuDivya/Blood-cells-WBC-detection-using-image-processing',
     image: BloodImg,
-    video: '/videos/blood.mp4'
+    video: 'https://drive.google.com/file/d/1S50WL5tEpN1hO3kZg153dAMIKLtlKzoL/view?usp=sharing'
   },
   {
     title: 'Weather App',
@@ -142,7 +142,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Weather-App',
     live: 'https://weather-app-bay-one-51.vercel.app/',
     image: WeatherImg,
-    video: '/videos/weatherapp.mp4'
+    video: 'https://drive.google.com/file/d/13TXYNkIup0xYEeAZ885USQb-hXqui15T/view?usp=sharing'
   },
   {
     title: 'Classification and Clustering Techniques in Data Mining',
@@ -151,7 +151,7 @@ const projects = [
     github: 'https://github.com/BalusuDivya/Classification-and-Clustering-Techniques-in-Data-Mining',
     live: 'https://github.com/BalusuDivya/Classification-and-Clustering-Techniques-in-Data-Mining',
     image: DMTImg,
-    video: '/videos/dmt.mp4'
+    video: 'https://drive.google.com/file/d/1DO760Lzj9IvE4Nl0NzpeuX1iHAWe7G9Y/view?usp=sharing'
   }
 ];
 
