@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import './Home.css';
-import profileImage from '../assets/profile.jpg';
+import profileImage from '../assets/pro.png';
 import cvFile from '../assets/my resume.pdf';
 
 function Home() {
